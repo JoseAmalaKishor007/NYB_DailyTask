@@ -1,0 +1,5 @@
+git will be work in 4 steps 
+1, working directory :-creates and modify files in ur vscode.git add ., its ready to commit 
+2,staging area:-choose which changes to include in the nxt save 
+3, local repo:- recording a snapshot of ur staged changes,  through git commit its ready of push 
+4,remote repo:-means github upload your commits to github by using git push  
