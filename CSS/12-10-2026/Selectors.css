@@ -1,0 +1,140 @@
+/* Universal Selector */
+
+*{
+    background-color: aquamarine;
+    scroll-behavior: smooth;
+}
+
+
+/* Element Selector */
+p{
+    font-style: italic;
+    font-size: 20px;
+}
+
+h1{
+    color: blue;
+}
+
+
+ol{
+    font-size: 20px;
+}
+
+
+/* ID Selector */
+
+#headP1{
+    background-color: rgb(211, 245, 60);
+}
+
+#headP2{
+    background-color: rgb(249, 84, 221);
+}
+
+
+/* Class Selector */
+
+.headP3{
+    background-color: gold;
+    font-style: normal;
+}
+
+/* Group selector */
+
+h1,p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    background-color: rgb(213, 244, 57);
+    padding: 10px;
+}
+
+
+input[type="number"] {
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+/* Borders */
+
+/* Border styles, widths, and colors */
+
+
+.box1{
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+}
+
+.box2{
+    border-width: 3px;
+    border-style: dotted;
+    border-color: black;
+}
+
+.box3{
+    border-width: 3px;
+    border-style: dashed;
+    border-color: blueviolet;
+}
+
+.box4{
+    border-width: 3px;
+    border-style: double;
+    border-color: rgb(12, 8, 65);
+}
+
+.radious1{
+    border-radius:20px;
+    border-style: dashed;
+    border-color: darkgoldenrod;
+}
+
+.bgColor{
+    background-color: yellow;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
