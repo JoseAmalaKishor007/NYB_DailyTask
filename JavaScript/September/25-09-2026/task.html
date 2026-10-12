@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* table{
+            margin-top:10%;
+        } */
+        tr,th{
+            padding: 30px;
+            background: rgb(120, 221, 241);
+        }
+        td{
+            padding: 30px;
+            background: rgb(178, 244, 24);
+        }
+    </style>
+</head>
+<body>
+    
+    <table border="1" align="center">
+    <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thrusday</th>
+        <th>Friday</th>
+    </tr>
+
+    <tr>
+        <td style="background: rgb(224, 248, 105);">9 Am-10 Am</td>
+
+        <td class="slot"
+            data-day="Monday"
+            data-time="9 Am-10 Am"
+            data-subject="Cyber Security">
+            Cyber Security
+        </td>
+
+        <td class="slot"
+            data-day="Tuesday"
+            data-time="9 Am-10 Am"
+            data-subject="Machine Learning">
+            Machine Learning
+        </td>
+
+        <td class="slot"
+            data-day="Wednesday"
+            data-time="9 Am-10 Am"
+            data-subject="Artificial Intelligence">
+            Artificial Intelligence
+        </td>
+
+        <td class="slot"
+            data-day="Thrusday"
+            data-time="9 Am-10 Am"
+            data-subject="Data Science">
+            Data Science
+        </td>
+
+        <td class="slot"
+            data-day="Friday"
+            data-time="9 Am-10 Am"
+            data-subject="Object Oriented Programming">
+            Object Oriented Programming
+        </td>
+    </tr>
+
+    <tr>
+        <td style="background: rgb(224, 248, 105);">10 Am-11 Am</td>
+
+        <td class="slot"
+            data-day="Monday"
+            data-time="10 Am-11 Am"
+            data-subject="Machine Learning">
+            Machine Learning
+        </td>
+
+        <td class="slot"
+            data-day="Tuesday"
+            data-time="10 Am-11 Am"
+            data-subject="Data Science">
+            Data Science
+        </td>
+
+        <td class="slot"
+            data-day="Wednesday"
+            data-time="10 Am-11 Am"
+            data-subject="Object Oriented Programming">
+           Object Oriented Programming
+        </td>
+
+        <td class="slot"
+            data-day="Thrusday"
+            data-time="10 Am-11 Am"
+            data-subject="Cyber Security">
+            Cyber Security
+        </td>
+
+        <td class="slot"
+            data-day="Friday"
+            data-time="10 Am-11 Am"
+            data-subject="Artificial Intelligence">
+            Artificial Intelligence
+        </td>
+    </tr>
+
+    <tr>
+        <td style="background: rgb(224, 248, 105);">11 Am-12 Am</td>
+
+        <td class="slot"
+            data-day="Monday"
+            data-time="11 Am-12 Am"
+            data-subject="Artificial Intelligence">
+            Artificial Intelligence
+        </td>
+
+        <td class="slot"
+            data-day="Tuesday"
+            data-time="11 Am-12 Am"
+            data-subject="Cyber Security">
+            Cyber Security
+        </td>
+
+        <td class="slot"
+            data-day="Wednesday"
+            data-time="11 Am-12 Am"
+            data-subject="Data Science">
+           Data Science
+        </td>
+
+        <td class="slot"
+            data-day="Thrusday"
+            data-time="11 Am-12 Am"
+            data-subject="Object Oriented Programming">
+            Object Oriented Programming
+        </td>
+
+        <td class="slot"
+            data-day="Friday"
+            data-time="11 Am-12 Am"
+            data-subject="Machine Learning">
+            Machine Learning
+        </td>
+    </tr>
+
+    <tr>
+        <td style="background: rgb(224, 248, 105);">12 Pm-1 Pm</td>
+
+        <td class="slot"
+            data-day="Monday"
+            data-time="12 Pm-1 Pm"
+            data-subject="Object Oriented Programming">
+            Object Oriented Programming
+        </td>
+
+        <td class="slot"
+            data-day="Tuesday"
+            data-time="12 Pm-1 Pm"
+            data-subject="Machine Learning">
+            Machine Learning
+        </td>
+
+        <td class="slot"
+            data-day="Wednesday"
+            data-time="12 Pm-1 Pm"
+            data-subject="Data Science">
+           Data Science
+        </td>
+
+        <td class="slot"
+            data-day="Thrusday"
+            data-time="12 Pm-1 Pm"
+            data-subject="Cyber Security">
+            Cyber Security
+        </td>
+
+        <td class="slot"
+            data-day="Friday"
+            data-time="12 Pm-1 Pm"
+            data-subject="Artificial Intelligence">
+            Artificial Intelligence
+        </td>
+    </tr>
+
+    <tr>
+        <td style="background: rgb(224, 248, 105);">1 Pm-2 Pm</td>
+
+        <td align="center"
+            colspan="5"
+            class="slot"
+            data-day="All Day In a Week"
+            data-time="1 Pm-2 Pm"
+            data-subject="Lunch Break">
+            Lunch Break
+        </td>
+
+    </tr>
+
+    <tr>
+        <td style="background: rgb(224, 248, 105);">2 Pm-3 Pm</td>
+
+        <td class="slot"
+            data-day="Monday"
+            data-time="2 Pm-3 Pm"
+            data-subject="Cyber Security">
+            Cyber Security
+        </td>
+
+        <td class="slot"
+            data-day="Tuesday"
+            data-time="2 Pm-3 Pm"
+            data-subject="Machine Learning">
+            Machine Learning
+        </td>
+
+        <td class="slot"
+            data-day="Wednesday"
+            data-time="2 Pm-3 Pm"
+            data-subject="Artificial Intelligence">
+           Artificial Intelligence
+        </td>
+
+        <td class="slot"
+            data-day="Thrusday"
+            data-time="2 Pm-3 Pm"
+            data-subject="Data Science">
+            Data Science
+        </td>
+
+        <td class="slot"
+            data-day="Friday"
+            data-time="2 Pm-3 Pm"
+            data-subject="Object Oriented Programming">
+            Object Oriented Programming
+        </td>
+    </tr>
+
+    <tr>
+        <td style="background: rgb(224, 248, 105);">3 Pm-4 Pm</td>
+
+        <td class="slot"
+            data-day="Monday"
+            data-time="3 Pm-4 Pm"
+            data-subject="Artificial Intelligence">
+            Artificial Intelligence
+        </td>
+
+        <td class="slot"
+            data-day="Tuesday"
+            data-time="3 Pm-4 Pm"
+            data-subject="Data Science">
+            Data Science
+        </td>
+
+        <td class="slot"
+            data-day="Wednesday"
+            data-time="3 Pm-4 Pm"
+            data-subject="Cyber Security">
+           Cyber Security
+        </td>
+
+        <td class="slot"
+            data-day="Thrusday"
+            data-time="3 Pm-4 Pm"
+            data-subject="Machine Learning">
+            Machine Learning
+        </td>
+
+        <td class="slot"
+            data-day="Friday"
+            data-time="3 Pm-4 Pm"
+            data-subject="Object Oriented Programming">
+            Object Oriented Programming
+        </td>
+    </tr>
+    </tr>
+
+    <tr>
+        <td style="background: rgb(224, 248, 105);">4 Pm-5 Pm</td>
+
+        <td class="slot"
+            data-day="Monday"
+            data-time="4 Pm-5 Pm"
+            data-subject="Artificial Intelligence">
+            Artificial Intelligence
+        </td>
+
+        <td class="slot"
+            data-day="Tuesday"
+            data-time="4 Pm-5 Pm"
+            data-subject=" Object Oriented Programming">
+             Object Oriented Programming
+        </td>
+
+        <td class="slot"
+            data-day="Wednesday"
+            data-time="4 Pm-5 Pm"
+            data-subject="Machine Learning">
+           Machine Learning
+        </td>
+
+        <td class="slot"
+            data-day="Thrusday"
+            data-time="4 Pm-5 Pm"
+            data-subject="Cyber Security">
+            Cyber Security
+        </td>
+
+        <td class="slot"
+            data-day="Friday"
+            data-time="4 Pm-5 Pm"
+            data-subject="Data Science">
+            Data Science
+        </td>
+    </tr>
+
+
+
+
+
+
+
+    
+</table>
+
+
+
+
+
+
+
+
+<script src="task.js"></script>
+</body>
+</html>

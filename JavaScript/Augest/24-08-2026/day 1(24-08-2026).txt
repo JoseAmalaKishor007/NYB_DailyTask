@@ -1,0 +1,241 @@
+1. Purpose of Using Software
+
+Definition:
+Software is a collection of programs, instructions, and data that that is used to perform specific tasks. The purpose of using software is to solve problems, improve productivity, and help users complete tasks efficiently.
+
+Examples: Microsoft Word, Google Chrome, WhatsApp, Photoshop.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. SDLC (Software Development Life Cycle)
+
+Definition:
+The Software Development Life Cycle (SDLC) is a structured process used to design, develop, test, deploy, and maintain software applications. It ensures that software is developed systematically and meets user requirements.
+
+Stages of SDLC:
+
+Requirement Gathering
+Planning
+Design
+Development (Coding)
+Testing
+Deployment
+Publish
+Maintenance
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. HTML Introduction
+
+Definition:
+HTML (HyperText Markup Language) is the standard markup language used to create and structure web pages. It defines the content of a webpage using elements such as headings, paragraphs, images, links, and tables.
+
+Features of HTML:
+
+Easy to learn and use
+Platform-independent
+Supports multimedia content
+Forms the basic structure of websites
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Browser Engine
+
+Definition:
+A browser engine is the core software component of a web browser that interprets HTML, CSS, and JavaScript code and displays web pages on the screen.
+
+Functions of a Browser Engine:
+
+Parses HTML and CSS
+Builds the webpage structure
+Renders content visually
+Executes scripts and updates page content
+
+Examples:
+
+Blink (Google Chrome, Microsoft Edge)
+WebKit (Safari)
+Gecko (Mozilla Firefox)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. DOM (Document Object Model)
+
+Definition:
+The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents a webpage as a tree-like structure of objects, allowing programs and scripts to access and modify the content, structure, and style of a webpage dynamically.
+
+Uses of DOM:
+
+Change webpage content
+Modify styles
+Add or remove elements
+Handle user interactions
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6. About an Application
+
+Definition:
+An application (or application software) is a program designed to perform specific tasks for users. Applications provide functionality that helps users accomplish particular activities such as communication, learning, entertainment, or business operations.
+
+Types of Applications:
+
+Desktop Applications – MS Word, VLC Media Player
+Web Applications – Gmail, Google Docs
+Mobile Applications – Instagram, WhatsApp
+Enterprise Applications – ERP Systems, Banking Software
+
+Purpose of Applications:
+
+Improve efficiency
+Simplify tasks
+Enhance communication
+Manage data effectively
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Header Tags (<head>)
+
+Definition:
+The <head> tag contains information about the webpage that is not displayed directly on the page. It includes metadata, page title, links to CSS files, and other settings.
+
+Example:
+<head>
+    <title>My Website</title>
+</head>
+
+Purpose:
+Stores webpage information
+Sets the page title
+Links external files (CSS, JavaScript)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Div Tag (<div>)
+
+Definition:
+The <div> tag is a container used to group HTML elements together for styling and layout purposes.
+
+Example:
+<div>
+    <h1>Welcome</h1>
+    <p>This is a paragraph.</p>
+</div>
+
+Purpose:
+Organizes webpage content
+Helps create layouts
+Applies CSS styles to groups of elements
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. BR Tag (<br>)
+
+Definition:
+The <br> (Break) tag inserts a single line break in the text.
+
+Example:
+Hello<br>
+World
+
+Output:
+Hello
+World
+
+Purpose:
+Moves content to the next line
+Creates spacing between lines
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. HR Tag (<hr>)
+
+Definition:
+The <hr> (Horizontal Rule) tag creates a horizontal line across the webpage.
+
+Example:
+<p>Section 1</p>
+<hr>
+<p>Section 2</p>
+
+Purpose:
+Separates content sections
+Improves webpage organization
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. Image Tag (<img>)
+
+Definition:
+The <img> tag is used to display images on a webpage.
+
+Example:
+<img src="flower.jpg" alt="Flower">
+
+Attributes:
+src – Image location
+alt – Alternative text for the image
+
+Purpose:
+Displays pictures, logos, and graphics
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6. Anchor Tag (<a>)
+
+Definition:
+The <a> (Anchor) tag creates hyperlinks that connect one webpage to another.
+
+Example:
+<a href="https://www.google.com">Visit Google</a>
+
+Purpose:
+Navigates to other webpages
+Links documents and resources
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7. Text Formatting Tags
+
+Definition:
+Text formatting tags are used to change the appearance of text.
+
+Tag	Purpose
+<b>	Bold text
+<strong>	Important bold text
+<i>	Italic text
+<em>	Emphasized text
+<u>	Underlined text
+<mark>	Highlighted text
+<small>	Smaller text
+<del>	Deleted text
+
+Example:
+<b>Bold</b>
+<i>Italic</i>
+<u>Underline</u>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8. Heading Tags (<h1> to <h6>)
+
+Definition:
+Heading tags are used to define titles and headings on a webpage.
+
+Example:
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2>
+<h3>Section Heading</h3>
+
+Levels:
+<h1> – Largest heading
+<h6> – Smallest heading
+
+Purpose:
+Organizes content
+Improves readability
+Helps with SEO
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9. Paragraph Tag (<p>)
+
+Definition:
+The <p> tag is used to create paragraphs of text.
+
+Example:
+<p>This is a paragraph.</p>
+
+Purpose:
+Displays blocks of text
+Improves content structure and readability
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------

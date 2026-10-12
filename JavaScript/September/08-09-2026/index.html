@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 20px;
+    }
+    </style>
+</head>
+<body>
+    <h1 align="center"><u>Recursive</u></h1>
+    <p align="center" style="font-size: 20px;">Recursion is a programming technique in which a function solves a problem by calling itself with a smaller or simpler input until a stopping condition is reached. <br>
+
+        A recursive solution breaks a large problem into smaller instances of the same problem.</p>
+
+    <h2>Important Points :</h2>
+<ol style="font-size: 20px;">
+    <li>A base case is the condition that stops the function from calling itself.</li> <br>
+    <li>The recursive case is where the function calls itself with a smaller or simpler input.</li> <br>
+    <li>Every recursive function call is stored in the JavaScript call stack.</li> <br>
+    <li>Recursion works best when a problem can be broken down into smaller versions of itself.</li> <br>
+    <li>Many iterative solutions can also be written recursively.</li> <br>
+</ol>
+
+
+    <h1 align="center"><u>var, let, and const</u></h1>
+    <p align="center" style="font-size: 20px;">var is function-scoped and allows redeclaration, let is block-scoped and allows reassignment, while const is block-scoped and cannot be reassigned after declaration.</p>
+
+    <table align="center">
+        <tr style="font-size: 20px;">
+            <th>Feature</th>
+            <th>var</th>
+            <th>let</th>
+            <th>const</th>
+        </tr>
+
+        <tr>
+            <td>Scope</td>
+            <td>Function-scoped</td>
+            <td>Block-scoped</td>
+            <td>Block-scoped</td>
+        </tr>
+
+        <tr>
+            <td>Reassignment</td>
+            <td>✅ Allowed</td>
+            <td>✅Allowed</td>
+            <td>❌Not allowed</td>
+        </tr>
+
+        <tr>
+            <td>Redeclaration</td>
+            <td>✅ Allowed</td>
+            <td>❌ Not allowed in same scope</td>
+            <td>❌ Not allowed in same scope </td>
+        </tr>
+
+        <tr>
+            <td>Hoisted</td>
+            <td>✅ Yes</td>
+            <td>✅ Yes (Temporal Dead Zone)</td>
+            <td>✅ Yes (Temporal Dead Zone)</td>
+        </tr>
+
+        <tr>
+            <td>Must Initialize</td>
+            <td>❌ No</td>
+            <td>❌ No</td>
+            <td>✅ Yes</td>
+        </tr>
+
+        <tr>
+            <td>Preferred Usage</td>
+            <td>Rarely used</td>
+            <td>When value changes</td>
+            <td>When value should not be reassigned</td>
+        </tr>
+    </table>
+
+    <h1 align="center"><u>Hoisting</u></h1>
+    <p align="center" style="font-size: 20px;">Hoisting is JavaScript's behavior of moving declarations to the top of their scope before the code is executed. <br><br>
+            This means you can sometimes use variables or functions before they are declared in the code.</p>
+
+
+
+
+    <script src="recursion.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Scope</title>
+
+    <link rel="icon" href="./download.jpg" type="image/jpg">
+</head>
+<body>
+
+    <u><h1 align="center">Scope Concept of Variables</h1></u>
+
+    <u><h2>1. Global Scope</h2></u>
+    <p style="font-size: 20px;">A variable declared <mark style="background-color: aqua;">outside any function</mark> or block is said to have <mark style="background-color: aqua;">global scope</mark>. It can be accessed from anywhere in the program.</p>
+
+    <p style="padding-left: 50px;font-size:20px;">
+        let greet = "Jose"; <br>
+        function showName() {<br>
+            console.log(greet);<br>
+        }<br>
+        showName();<br>
+        console.log(greet);</p>
+
+
+    <u><h2>2. Function Scope</h2></u>
+    <p style="font-size: 20px;">A variable declared inside a function using <mark style="background-color: aqua;">var</mark> has <mark style="background-color: aqua;">function scope</mark>. It can only be accessed within that function.</p>
+
+    <p style="padding-left: 50px;font-size:20px;">
+        function fun() { <br>
+        let age = 20;<br>
+        console.log(age);<br>
+    }<br>
+    fun();<br>
+    // console.log(age); // Error</p>
+
+
+    <u><h2>3. Block Scope</h2></u>
+    <p style="font-size: 20px;">A variable declared inside a block <mark style="background-color: aqua;">({ }) using let or const</mark> has <mark style="background-color: aqua;">block scope</mark>. It can only be accessed within that block.</p>
+
+    <p style="padding-left: 50px;font-size:20px;">
+        if (true) {<br>
+        let city = "Dindigul";<br>
+        console.log(city);<br>
+    }<br>
+    // console.log(city); // Error</p>
+
+
+    <script src="./scope.js"></script>
+
+</body>
+</html>

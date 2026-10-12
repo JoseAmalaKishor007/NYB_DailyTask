@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope</title>
+  <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 20px;
+    }
+    </style>
+</head>
+<body>
+    <h1 align="center"><u>Scope</u></h1>
+
+    <p align="center" style="font-size:20px;">
+        Scope is the area where a <mark>variable can be accessed</mark> or used in a program. <br><br>
+        It determines the <mark>visibility and lifetime</mark> of variables within different parts of the code.
+    </p> <br>
+
+    <h2>Three Types of Scope :</h2>
+    <ol style="font-size:25px; padding-left:10%;">
+        <li>Global Scope</li>
+        <li>Function Scope</li>
+        <li>Block Scope</li>
+    </ol> <br>
+
+    <h1><u>1.Global Scope</u></h1>
+    <p style="font-size:20px;padding-left:5%;">
+        A variable declared <mark>outside all functions and blocks</mark> is in the global scope. <br><br>
+        It can be <mark>accessed</mark> from anywhere in the program.
+    </p>
+
+    <h1><u>2. Function Scope</u></h1>
+    <p style="font-size:20px;padding-left:5%;">
+        A variable declared inside a function can only be used within that function. <br><br>
+    </p>
+
+    <h1><u>1.Block Scope</u></h1>
+    <p style="font-size:20px;padding-left:5%;">
+        Variables declared using <mark>let</mark> and <mark>const</mark> inside <mark>{}</mark> are accessible only within that block.<br><br>
+    </p>
+    
+    <h2>Rules in Scope</h2>
+    <ul style="font-size:20px; padding-left:10%;">
+        <li>Variables can only be accessed within their defined scope.</li> <br>
+        <li>Inner scopes can access variables from outer scopes.</li><br>
+        <li>Outer scopes cannot access variables declared inside inner scopes.</li><br>
+        <li>Variables with the same name in different scopes are treated separately.</li><br>
+    </ul>
+
+    <h1 align="center">Difference Between Scope Types</h1>
+
+<table align="center">
+        <tr style="font-size: 20px;">
+            <th>Feature</th>
+            <th>Global Scope</th>
+            <th>Function Scope</th>
+            <th>Block Scope</th>
+        </tr>
+
+        <tr>
+            <td>Declared Where</td>
+            <td>Outside all functions</td>
+            <td>Inside a function</td>
+            <td>Inside {} block</td>
+        </tr>
+
+        <tr>
+            <td>Accessible</td>
+            <td>Everywhere</td>
+            <td>Only inside function</td>
+            <td>Only inside block</td>
+        </tr>
+
+        <tr>
+            <td>Lifetime</td>
+            <td>Entire program</td>
+            <td>Until function ends</td>
+            <td>Until block ends</td>
+        </tr>
+
+        <tr>
+            <td>Keywords</td>
+            <td>var, let, const</td>
+            <td>var, let, const</td>
+            <td>let, const</td>
+        </tr>
+    </table> <hr><hr>
+
+    <h1 align="center"><u>Recursive Functions</u></h1>
+
+    <p align='center' style="font-size:20px;">
+        A recursive function is a function that <mark>calls itself</mark> to solve a problem. <br><br>
+        It breaks a large problem into smaller subproblems until a stopping condition <mark>(base case)</mark> is reached.
+    </p> <br><br>
+
+    <h2>Advantages of Recursive Functions :</h2>
+    <ol style="font-size:25px; padding-left:10%;">
+        <li>Simplifies complex problems.</li>
+        <li>Useful for tree and graph traversal.</li>
+        <li>Reduces code length for repetitive tasks.</li>
+    </ol> <br>
+    
+    
+    <h2>Disadvantages of Recursive Functions :</h2>
+    <ol style="font-size:25px; padding-left:10%;">
+        <li>Uses more memory due to function calls.</li>
+        <li>Can cause stack overflow if the base case is missing.</li>
+    </ol> <br>
+
+
+
+
+
+
+
+
+
+    <script src="scope.js"></script>
+</body>
+</html>

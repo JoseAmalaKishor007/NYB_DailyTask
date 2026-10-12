@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+         <div id="topic1">
+            <h1 align="center"><u>Arrays</u></h1>
+            <p align="center" style="font-size: 20px;">
+                An Array is a special JavaScript object used to store <mark>multiple values in a single variable</mark>. <br><br>
+                Each value in an array is called an element and is stored with an index starting from <mark>0</mark>. <br>
+            </p>
+                <ul style="padding-left: 40%; font-size: 20px;">
+                    <li>Stores multiple values in one variable.</li>
+                    <li>Index starts from 0.</li>
+                    <li>Can store different data types.</li>
+                    <li>Arrays are dynamic (size can change).</li>
+                </ul>
+         </div>
+
+
+         <hr>
+
+         <div id="topic2">
+            <h2><u>Multidimensional Arrays</u></h2>
+            <p style="font-size: 20px;">
+                A multidimensional array is an array that contains one or more arrays as its elements. <br><br>
+                It is used to store data in a table-like structure with rows and columns.</p>
+            <ul style="font-size: 20px;">
+                <li>Used to represent tables and matrices.</li>
+                <li>Access elements using multiple indexes.</li>
+                <li>First index = row, second index = column.</li>
+            </ul>
+         </div>
+
+         <hr>
+
+
+         <div id="topic3">
+            <h2><u>Adding Elements to an Array</u></h2>
+            <p style="font-size: 20px;">
+                Adding elements to an array means inserting new values into an existing array. <br><br>
+                JavaScript provides methods like <mark>push(), unshift(), and splice()</mark> to add elements at different positions in an array.</p>
+
+            <ol style="font-size: 20px;">
+                <li>push() – Adds element(s) to the end of the array.</li>
+                <li>unshift() – Adds element(s) to the beginning of the array.</li>
+                <li>splice() – Adds element(s) at a specified position in the array.</li>
+            </ol>
+           
+         </div>
+
+         <hr>
+
+
+
+         <div id="topic4">
+            <h2><u>Removing Elements to an Array</u></h2>
+            <p style="font-size: 20px;">
+                Removing elements from an array means deleting one or more values from an existing array. <br><br>
+                JavaScript provides methods like <mark>pop(), shift(), and splice()</mark> to remove elements from different positions in an array.</p>
+
+            <ol style="font-size: 20px;">
+                <li>pop() – Removes the last element from the array.</li>
+                <li>shift() – Removes the first element from the array.</li>
+                <li>splice() – Removes element(s) from a specified position in the array.</li>
+            </ol>
+            
+         </div>
+
+         <hr>
+
+
+        <div id="topic5">
+            <h2><u>Accessing Array Elements</u></h2>
+            <p style="font-size: 20px;">
+                Accessing array elements means retrieving or reading values stored in an array. <br><br>
+                Array elements are accessed using their index number, which starts from 0.</p>
+            <ul style="font-size: 20px;">
+                <li>First element index = 0</li>
+                <li>Second element index = 1</li>
+                <li>Last element index = length - 1</li>
+            </ul>
+         </div>
+
+         <hr>
+
+
+    <div id="topic6">
+            <h2><u>Array length</u></h2>
+            <p style="font-size: 20px;">
+                The length property returns the total number of elements present in an array. <br><br>
+                It helps determine the size of an array and is commonly used in loops.</p>
+            <ul style="font-size: 20px;">
+                <li>length is a property, not a method.</li>
+                <li>Array indexing starts from 0, but length starts counting from 1.</li>
+                <li>The value of length changes automatically when elements are added or removed.</li>
+            </ul>
+         </div>
+
+         <hr>
+
+
+        <div id="topic7">
+            <h2><u>includes()</u></h2>
+            <p style="font-size: 20px;">
+                The includes() method checks whether a specified element exists in an array. <br><br>
+                It returns true if the element is found and false if it is not found.</p>
+            <ul style="font-size: 20px;">
+                <li>It is case-sensitive.</li>
+                <li>Returns a Boolean value (true or false).</li>
+                <li>Useful for checking the presence of an element before performing operations.</li>
+            </ul>
+         </div>
+
+
+         <hr>
+
+
+         <div id="topic8">
+            <h2><u>indexOf()</u></h2>
+            <p style="font-size: 20px;">
+                The indexOf() method returns the index (position) of the first occurrence of a specified element in an array.
+                If the element is not found, it returns -1.</p>
+            <ul style="font-size: 20px;">
+                <li>Array indexing starts from 0.</li>
+                <li>Returns the first matching index only.</li>
+                <li>Returns -1 if the element does not exist.</li>
+                <li>It is case-sensitive.</li>
+            </ul>
+         </div>
+
+
+         <hr>
+
+
+         <div id="topic9">
+            <h2><u>lastIndexOf()</u></h2>
+            <p style="font-size: 20px;">
+                The lastIndexOf() method returns the index (position) of the last occurrence of a specified element in an array. <br><br>
+                If the element is not found, it returns -1.</p>
+            <ul style="font-size: 20px;">
+                <li>Searches the array from right to left./li>
+                <li>Returns the index of the last matching element.</li>
+                <li>Returns -1 if the element does not exist.</li>
+            </ul>
+         </div>
+
+
+         <hr>
+
+
+
+         <div id="topic10">
+            <h2><u>Making an Array Empty</u></h2>
+            <p style="font-size: 20px;">
+                Making an array empty means removing all elements from the array. <br><br>
+                This is useful when you want to clear existing data and reuse the same array.</p>
+                <h2>Methods of Making an Array Empty</h2>
+                <ol style="font-size: 20px;">
+                    <li>Assign Empty Array</li>
+                    <li>Using Length</li>
+                </ol>
+
+            <ul style="font-size: 20px;">
+                <li>length = 0 is the simplest and fastest way.</li>
+                <li>splice() removes all elements from the original array.</li>
+                <li>After clearing, the array still exists but contains no elements.</li>
+            </ul>
+         </div>
+
+         <hr>
+
+        <div id="topic11">
+            <h2><u>Combining Arrays</u></h2>
+            <p style="font-size: 20px;">
+                Combining arrays means merging two or more arrays into a single array. <br><br>
+                JavaScript provides methods like concat() and the spread operator (...) to combine arrays.</p>
+                <h2>Methods of Combining Arrays</h2>
+                <ol style="font-size: 20px;">
+                    <li>concat()</li>
+                    <li>Spread Operator (...)</li>
+                </ol>
+            <ul style="font-size: 20px;">
+                <li>Combines multiple arrays into one./li>
+                <li>Does not modify the original arrays.</li>
+                <li>Creates and returns a new array.</li>
+            </ul>
+         </div>
+
+
+
+
+
+<script src="arrays.js"></script>
+
+</body>
+</html> 

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+    <style>
+        p,ul{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Sorting Without Built-in Methods</h1>
+        <p>
+            Sorting without built-in methods means arranging array elements in ascending or descending order without using JavaScript's sort() method.
+            This is done by manually comparing and swapping elements using loops.
+        </p>
+        <ul>
+            <li>Does not use the sort() method.</li>
+            <li>Uses loops and comparison operators.</li>
+            <li>Helps understand sorting algorithms.</li>
+        </ul>
+    </div>
+    
+    <div id="head">
+        <h1 align="center"><u>Objects</u></h1>
+        <p align="center" style="font-size: 20px;">
+            An object is a non-primitive data type used to store multiple related values as key-value pairs. <br><br>
+            Objects help organize and manage data in a structured way.
+        </p>
+        
+        <ol style="font-size: 20px; padding-left: 30%;">
+            <li>Objects store data in properties (key-value pairs).</li>
+            <li>Keys are called properties, and values can be any data type.</li>
+            <li>Objects are enclosed within curly braces {}.</li>
+            <li>Objects are reference data types.</li>
+        </ol>
+    </div>
+
+
+    <div id="topic1">
+        <h1><u>Creating Objects</u></h1>
+        <p>
+            Creating an object means defining and storing related data as key-value pairs inside an object. <br><br>
+            JavaScript provides multiple ways to create objects.
+        </p>
+        <h2>1. Object Literal Method</h2>
+        <p>Objects are created directly using curly braces {}.</p>
+        <ul>
+            <li>Simplest and most commonly used method.</li>
+            <li>Easy to read and write.</li>
+            <li>Suitable for creating a single object.</li>
+        </ul>
+
+        <h2>2. Using new Object() Constructor   </h2>
+        <p>Objects are created using the built-in Object constructor</p>
+        <ul>
+            <li>Uses the new keyword.</li>
+            <li>Properties are added after object creation.</li>
+            <li>Less commonly used than object literals.</li>
+        </ul>
+
+        <h2>3. Constructor Function Method</h2>
+        <p>A function is used as a blueprint to create multiple objects.</p>
+        <ul>
+            <li>Used to create many objects with the same structure.</li>
+            <li>this refers to the current object being created.</li>
+            <li>Requires the new keyword.</li>
+        </ul>
+    </div>
+
+    <div id="topic2">
+        <h1><u>Object Properties and Methods</u></h1>
+        <h2>Object Properties:</h2>
+        <p>
+           Properties are the variables inside an object that store data as key-value pairs. 
+        </p>
+        <ul>
+            <li>Properties store data.</li>
+            <li>Accessed using dot notation (object.property) or bracket notation (object["property"]).</li>
+            <li>Property values can be any data type.</li>
+        </ul>
+        <h2>Object Methods:</h2>
+        <p>
+            Methods are functions stored inside an object that perform actions on the object's data.
+        </p>
+        <ul>
+            <li>Methods are functions inside objects.</li>
+            <li>Used to perform actions.</li>
+            <li>this refers to the current object.</li>
+        </ul>
+    </div>
+
+    <div id="topic3">
+        <h1>Copying Objects</h1>
+        <p>
+            Copying Objects means creating a new object from an existing object. <br><br>
+            It is used when you want to duplicate an object without changing the original data.
+        </p>
+        <h1>Types of Object Copying</h1>
+        <ul>
+            <li>Normal Copy</li>
+            <li>Shallow Copy</li>
+            <li>Deep Copy</li>
+        </ul>
+
+        <h2>Normal Copy</h2>
+        <p>
+            In a normal copy, both variables refer to the same object in memory. <br><br>
+            Changing one object will also affect the other.
+        </p>
+        <ul>
+            <li>No new object is created.</li>
+            <li>Both variables share the same memory location.</li>
+            <li>Changes in one object affect the other.</li>
+        </ul>
+        
+
+        <h2>Shallow Copy</h2>
+        <p>
+            A shallow copy creates a new object, but nested objects are still copied by reference.
+        </p>
+        <ul>
+            <li>Creates a new top-level object.</li>
+            <li>Primitive values are copied independently.</li>
+            <li>Nested objects are still shared.</li>
+        </ul>
+
+        <h2>Deep Copy</h2>
+        <p>
+            A deep copy creates a completely independent copy, including all nested objects.
+        </p>
+        <ul>
+            <li>Creates a fully separate object.</li>
+            <li>Nested objects are copied independently.</li>
+            <li>Changes do not affect the original object.</li>
+        </ul>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="object.js"> </script>
+</body>
+
+</html>

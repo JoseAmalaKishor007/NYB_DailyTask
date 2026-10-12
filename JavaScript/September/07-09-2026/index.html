@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Function</h1>
+    <p align="center" style="font-size: 22px;">A function is a reusable block of code designed to perform a specific task. Functions help reduce code repetition and make programs easier to maintain.</p>
+    <ol>
+        <li style="font-size: 25px; font-weight: bold;">Function Decleration</li>
+        <li style="font-size: 25px; font-weight: bold;">Function Expression</li>
+    </ol>
+    
+    <ol>
+        <li style="font-size: 25px; font-weight: bold;">Function Decleration</li>
+                <p style="font-size: 20px;">A function declaration is the most common way to create a function.</p>
+                <ul  style="font-size: 20px;">
+                    <li>Has a function name.</li>
+                    <li>Can be called before its declaration (Hoisting).</li>
+                    <li>Easy to read and maintain.</li>
+                </ul>
+                <p style="font-size: 20px; padding-left: 50px;">
+                    function add(a, b) { <br>
+                        return a + b;<br>
+                    } <br>
+                    console.log(add(10, 20));</p> <br>
+
+
+        <li style="font-size: 25px; font-weight: bold;">Function Expression</li>
+                <p style="font-size: 20px;">A function can be stored inside a variable.</p>
+                <ul  style="font-size: 20px;">
+                    <li>Function is treated as a value.</li>
+                    <li>Can be assigned to variables.</li>
+                    <li>Cannot be called before initialization.</li>
+                </ul>
+                <p style="font-size: 20px; padding-left: 50px;">
+                    let multiply = function(a, b) { <br>
+                        return a * b; <br>
+                        };  <br>
+                    console.log(multiply(5, 4));</p> <br>
+
+        <ul>
+            <li style="font-size: 25px; list-style: upper-alpha;">Named Function Expression</li>
+                <p style="font-size: 20px;">The function has its own name inside the expression.</p>
+                <ul  style="font-size: 20px;">
+                    <li>Debugging.</li>
+                    <li>Recursion.</li>
+                    <li>Better error messages.</li>
+                </ul>
+                <p style="font-size: 20px; padding-left: 50px;">
+                    let greet = function welcome() { <br>
+                    console.log("Welcome"); <br>
+                    };<br>
+                    greet();</p> <br>
+
+
+            <li style="font-size: 25px; list-style: upper-alpha;">Anonymous Function Expression</li>
+            <p style="font-size: 20px;">A function without a name.</p>
+                <ul  style="font-size: 20px;">
+                    <li>No function name.</li>
+                    <li>Mostly used as callbacks.</li>
+                    <li>Short and simple.</li>
+                </ul>
+                <p style="font-size: 20px; padding-left: 50px;">
+                    let greet = function() { <br>
+                    console.log("Hello");<br>
+                    };<br>
+                    greet();<br>
+                </p> <br>
+
+
+
+            <li style="font-size: 25px; list-style: upper-alpha;">Arrow Functions (ES6)</li>
+            <p style="font-size: 20px;">Arrow functions provide a shorter syntax for writing functions.</p>
+                <ul  style="font-size: 20px;">
+                    <li>Uses the => operator.</li>
+                    <li>Shorter and cleaner syntax.</li>
+                    <li>Often used for callbacks and array methods.</li>
+                </ul>
+                <p style="font-size: 20px; padding-left: 50px;">
+                    const greet = () => {<br>
+                    console.log("Hello");<br>
+                    };<br>
+                    greet(); <br>
+                </p> <br>
+        </ul>
+
+    </ol>
+        
+
+
+
+
+
+
+
+    <script src="functions.js"></script>
+    </body>
+</html>

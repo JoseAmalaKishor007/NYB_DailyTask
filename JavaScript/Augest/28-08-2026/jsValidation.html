@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./download.jpg" type="image/jpg">
+    <title>Validation</title>
+</head>
+<body>
+    <u><h1 align="center">Validations using JavaScript.</h1></u>
+    <ol style="font-size: large;" >
+        <li>Ensures that user input is correct before submitting a form.</li>
+        <li>Improves data accuracy and prevents invalid information.</li>
+        <li>Provides immediate feedback to users.</li>
+        <li>Checks whether required fields are filled.</li>
+        <li>Validates input length using minlength and maxlength.</li>
+    </ol>
+
+    <u><h1>Form Validation</h1></u>
+
+    <form align="center" style="margin-top: 100px;">
+
+        <label>Name:</label>
+        <input type="text"
+               required
+               minlength="3"
+               maxlength="20">
+        <br><br>
+
+        <label>D.O.B:</label>
+        <input type="date"><br><br>
+
+        <label>Email:</label>
+        <input type="email"
+               required>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password"
+               required
+               minlength="6">
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number"
+               min="18"
+               max="60"
+               required>
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="text"
+               pattern="[0-9]{10}"
+               placeholder="10-digit number"
+               required>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

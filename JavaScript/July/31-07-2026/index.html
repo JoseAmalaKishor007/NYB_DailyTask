@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    section{
+        min-width:80px;
+       min-height:100px;
+        padding: 30px;
+        border: 2px solid blue;
+    }
+
+    div{
+        min-width:80px;
+       min-height:100px;
+        padding: 30px;
+        border: 2px solid red;
+    }
+</style>
+
+</head>
+<body>
+    <h1 id="head">This is heading</h1>
+
+    
+    <section id="grandparent">
+        <section id="parent">
+            <section id="child">
+                <section id="sib1">
+                    <section id="sib2">This is Event Bubbelling</section>
+                </section>
+            </section>
+        </section>
+    </section>
+<br><br>
+    <div id="pricipal">
+        <div id="APrincipal">
+            <div id="Teacher">
+                <div id="clsLeader">
+                    <div id="students">This is Event Capturing</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./Events.js"></script>
+</body>
+</html>

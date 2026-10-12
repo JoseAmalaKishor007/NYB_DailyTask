@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+        border:2px solid black;
+        border-collapse: collapse;
+        padding: 20px;
+    }
+    </style>
+</head>
+<body>
+    <h1 align="center ">Todays Topic</h1> <br><br>
+
+    <div id="topics">
+        <ol style="padding-left: 40%; font-size: 20px">
+            <li>IIFE (Immediately Invoked Function Expression)</li><br>
+            <li>Closure</li><br>
+            <li>First-Class Functions</li><br>
+            <li>Pure Functions</li><br>
+            <li>Impure Functions</li><br>
+        </ol>
+    </div>
+
+    <div id="topic1">
+        <h1>IIFE (Immediately Invoked Function Expression)</h1>
+        <p style="font-size: 20px">An IIFE is a function that is defined and executed immediately after it is created.</p>
+
+        <div id="points1">
+            <h2>Important Points :</h2>
+            <ol style="font-size: 20px">
+                <li>Runs only once when defined.</li>
+                <li>Creates its own scope.</li>
+                <li>Prevents global variable pollution.</li>
+                <li>Commonly used before ES6 modules.</li>
+            </ol>
+        </div>
+    </div> <br>
+
+    <div id="topic2">
+        <h1>Closure</h1>
+        <p style="font-size: 20px">A closure is a function that remembers and can access variables from its outer function even after the outer function has finished executing.</p>
+
+        <div id="points2">
+            <h2>Important Points :</h2>
+            <ol style="font-size: 20px">
+                <li>Accesses outer function variables.</li>
+                <li>Retains data between function calls.</li>
+                <li>Used for data privacy and encapsulation.</li>
+                <li>Used for data privacy and encapsulation.</li>
+            </ol>
+        </div>
+    </div><br>
+
+    <div id="topic3">
+        <h1>First-Class Functions   </h1>
+        <p style="font-size: 20px">In JavaScript, functions are first-class citizens, meaning they can be treated like any other value.</p>
+
+        <div id="points3">
+            <h2>Important Points :</h2>
+            <ol style="font-size: 20px">
+                <li>Functions can be assigned to variables.</li>
+                <li>Functions can be passed as arguments.</li>
+                <li>Functions can be returned from functions.</li>
+                <li>Foundation for callbacks and closures.</li>
+            </ol>
+        </div>
+    </div><br>
+
+    <div id="topic4">
+        <h1>Pure Functions</h1>
+        <p style="font-size: 20px">A pure function always returns the same output for the same input and does not modify any external data.</p>
+
+        <div id="points4">
+            <h2>Important Points :</h2>
+            <ol style="font-size: 20px">
+                <li>Same input → Same output.</li>
+                <li>No side effects.</li>
+                <li>Does not change external variables.</li>
+                <li>Easier to test and debug.</li>
+            </ol>
+        </div>
+    </div><br>
+
+    <div id="topic5">
+        <h1>Impure Functions</h1>
+        <p style="font-size: 20px">An impure function does not always return the same output for the same input or modifies external data.</p>
+
+        <div id="points5">
+            <h2>Important Points :</h2>
+            <ol style="font-size: 20px">
+                <li>Depends on external variables.</li>
+                <li>May modify data outside the function.</li>
+                <li>Can produce different results for the same input.</li>
+                <li>Harder to test and debug.</li>
+            </ol>
+        </div>
+    </div><br>  
+
+
+
+    <div id="table"  align="center">
+        <h1>Difference Between Pure and Impure Functions</h1>
+        <table>
+            <tr>
+                <th>Pure Function</th>
+                <th>Impure Function</th>
+            </tr>
+
+            <tr>
+                <td>Same input gives same output</td>
+                <td>Same input may give different output</td>
+            </tr>
+
+            <tr>
+                <td>No side effects</td>
+                <td>Has side effects</td>
+            </tr>
+
+            <tr>
+                <td>Does not modify external data</td>
+                <td>May modify external data</td>
+            </tr>
+
+            <tr>
+                <td>Easy to test</td>
+                <td>Harder to test</td>
+            </tr>
+
+            <tr>
+                <td>Predictable</td>
+                <td>Less predictable</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <script src="closure.js"></script>
+</body>
+</html>

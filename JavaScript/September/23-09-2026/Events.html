@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center"><u>Event Haandler</u></h1>
+
+    <h1>Event Bubbling</h1>
+    <div align="center" id="grand" style="padding:30px; background: aqua;">
+        
+        <h3>Grand Parent</h3>
+
+        <div id="parent" style="padding:30px; background: rgb(245, 171, 232);">
+            <h3>Parent</h3>
+            
+            <div id="child" style="padding:30px; background: rgb(246, 225, 131);">
+                <button>Child</button>
+            </div>
+        </div>
+    </div>
+
+    <hr><hr>
+
+<h1>Event Capturing</h1>
+    <div align="center" id="grand1" style="padding:30px; background: rgb(121, 251, 158);">
+        
+        <h3>Grand Parent</h3>
+
+        <div id="parent1" style="padding:30px; background: rgb(242, 112, 112);">
+            <h3>Parent</h3>
+            
+            <div id="child1" style="padding:30px; background: rgb(156, 135, 248);">
+                <button>Child</button>
+            </div>
+        </div>
+    </div> 
+
+
+<div>
+    <ul id="menu" style="list-style: none;">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    <div id="delegation">
+        <h3>This is Heading Delegation 1</h3>
+        <p>This is Para Delegation 1</p>
+        <h3>This is Heading Delegation 2</h3>
+        <p>This is Para Delegation 2</p>
+        <h3>This is Heading Delegation 3</h3>
+        <p>This is Para Delegation 3</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="Events.js"></script>
+</body>
+</html>
