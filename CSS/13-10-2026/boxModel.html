@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="boxModel.css">
+</head>
+<body>
+    <h1 id="heading">Box Model</h1>
+<h1>CSS Borders and Backgrounds</h1>
+
+    <h2>1. Border Styles, Widths and Colors</h2>
+
+    <p class="box1">Solid red border</p>
+    <p class="box2">Dashed blue border</p>
+    <p class="box3">Dotted green border</p>
+
+    <h2>2. Border Radius</h2>
+    <p class="box4">Rounded border corners</p>
+
+    <h2>3. Background Color</h2>
+    <div class="box5">This box has a light blue background.</div>
+
+    <h2>4. Background Image with Cover</h2>
+    <div class="box6">Jose Amala Kishor</div>
+
+    <h2>5. Background Repeat</h2>
+    <div class="box7"></div>
+
+    <h2>6. Background Position</h2>
+    <div class="box8"></div>
+
+    <h2>7. Background Size: Contain</h2>
+    <div class="box9"></div>
+
+
+    <h1>CSS Box Model</h1>
+
+    <h2>1. Content, Padding, Border and Margin</h2>
+
+    <div class="box1">
+        This is the content area.
+    </div>
+
+    <h2>2. Content-box</h2>
+
+    <div class="content-box">
+        Width is 200px, excluding padding and border.
+    </div>
+
+    <h2>3. Border-box</h2>  
+
+    <div class="border-box">
+        Total width is 200px, including padding and border.
+    </div>
+
+    <h2>4. Margin Collapse</h2>
+
+    <div class="margin1">
+        First box: margin-bottom is 30px.
+    </div>
+
+    <div class="margin2">
+        Second box: margin-top is 20px.
+    </div>
+
+    <h2>5. Overflow: Visible</h2>
+
+    <div class="overflow-box visible">
+        This is a long text that will overflow outside
+        the box because the overflow value is visible.
+        More text is added to demonstrate this behavior.
+    </div>
+
+    <h2>Overflow: Hidden</h2>
+
+    <div class="overflow-box hidden">
+        This is a long text that will be clipped when
+        it exceeds the available space inside the box.
+        More text is added here.
+    </div>
+
+    <h2>Overflow: Scroll</h2>
+
+    <div class="overflow-box scroll">
+        This is a long text that can be viewed by
+        scrolling inside the box. More content is added
+        to demonstrate scrolling behavior.
+    </div>
+
+    <h2>Overflow: Auto</h2>
+
+    <div class="overflow-box auto">
+        This is a long text that allows scrolling when
+        the content exceeds the box dimensions.
+        More content is added here.
+    </div>
+
+    <h2>6. Outline vs Border</h2>
+
+    <div class="outline-box">
+        This box has a blue border and a red dashed outline.
+    </div>
+
+
+
+
+    <h1>CSS Display Properties</h1>
+
+    <h2>1. Block</h2>
+    <div class="block-box">Block 1</div>
+    <div class="block-box">Block 2</div>
+
+    <h2>2. Inline</h2>
+    <span class="inline-box">Inline 1</span>
+    <span class="inline-box">Inline 2</span>
+
+    <h2>3. Inline-block</h2>
+    <div class="inline-block-box">Inline-block 1</div>
+    <div class="inline-block-box">Inline-block 2</div>
+
+    <h2>4. Display None</h2>
+    <div class="none-box">You cannot see this box.</div>
+    <p>The hidden box does not occupy layout space.</p>
+
+    <h2>5. Visibility Hidden</h2>
+    <div class="hidden-box">You cannot see this box.</div>
+    <p>The invisible box still occupies layout space.</p>
+</body>
+</html>
