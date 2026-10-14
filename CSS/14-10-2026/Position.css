@@ -1,0 +1,119 @@
+.one{
+    background-color: red;
+    height: 100px;
+    width:100px;
+    margin: 20px;
+    position: relative;
+    /* top: 100px;
+    left: 100px; */
+    z-index: 1;
+    
+}
+.two{
+    background-color: violet;
+    height: 100px;
+    width:100px;
+    margin: 20px;
+    position: relative;
+    z-index: 2;
+}
+.three{
+    background-color: blue;
+    height: 100px;
+    width:100px;
+    margin: 20px;
+    position: static;
+    z-index: 1;
+}
+
+#div2{
+    border: solid black 2px;
+    margin-left: 200px;
+    width: 300px;
+    height: 100px;
+    position: relative;
+}
+
+h3{
+    position: absolute;
+    left:100px;
+    top: 10px;
+    z-index: 5;
+}
+
+h1{
+    position: sticky;
+     top: 40px;
+    left: 30px; 
+}
+
+
+img{
+    float: right;
+    margin: 15px
+}
+
+#div4 >p{
+    clear: both;
+}
+
+#flexboxName{
+    position:static;
+}
+
+ .container {
+            background-color: lightgray;
+            display: flex;
+            padding: 10px;
+            margin-bottom: 25px;
+            height: 150px;
+        }
+
+        .item {
+            background-color: lightblue;
+            border: 2px solid blue;
+            padding: 15px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        /* 1. Flex Direction */
+        .direction {
+            flex-direction: row;
+        }
+
+        /* 2. Justify Content */
+        .justify {
+            justify-content: space-between;
+        }
+
+        /* 3. Align Items */
+        .align {
+            align-items: center;
+        }
+
+        /* 4. Align Content */
+        .align-content {
+            height: 200px;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+
+        .align-content .item {
+            width: 100px;
+        }
+
+        /* 5. Flex Wrap */
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .wrap .item {
+            width: 120px;
+        }
+
+
+
+
+
+
