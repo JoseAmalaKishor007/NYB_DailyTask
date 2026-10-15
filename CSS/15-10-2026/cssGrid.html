@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cssGrid.css" />
+  </head>
+  <body>
+    <div class="div1">
+      <h1>One</h1>
+      <h1>Two</h1>
+      <h1>Three</h1>
+      <h1>Four</h1>
+      <h1>Five</h1>
+      <h1>Six</h1>
+    </div>
+
+    <div class="div2">
+      <h1>One</h1>
+      <h1>Two</h1>
+      <h1>Three</h1>
+    </div>
+
+
+    <h1>CSS Grid</h1>
+
+    <h2>1. Grid Container, Columns, Rows, Gap and fr</h2>
+
+    <div class="grid-container">
+        <div class="item item1">Item 1</div>
+        <div class="item item2">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+
+    <h2>2. repeat() and minmax()</h2>
+
+    <div class="repeat-grid">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+
+    <h2>3. Grid Alignment</h2>
+
+    <div class="align-grid">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+
+    <h2>4. Grid Areas</h2>
+
+    <div class="area-grid">
+        <div class="item header">Header</div>
+        <div class="item sidebar">Sidebar</div>
+        <div class="item main">Main Content</div>
+        <div class="item footer">Footer</div>
+    </div>
+
+
+     <nav>
+        <div class="container">
+            <a href="#home">Home</a>
+            <a href="#cards">Courses</a>
+            <a href="#grid">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Heading -->
+    <header class="heading container" id="home">
+        <h1>Responsive Website</h1>
+        <p>This website adjusts to different screen sizes.</p>
+    </header>
+
+    <!-- Responsive Cards -->
+    <section class="container" id="cards">
+        <h2>Our Courses</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Learn the structure of web pages.</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Learn to style and design web pages.</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Learn to make websites interactive.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Responsive Grid -->
+    <section class="container" id="grid">
+        <h2>Our Services</h2>
+
+        <div class="grid-container">
+            <div class="grid-item">Web Design</div>
+            <div class="grid-item">Development</div>
+            <div class="grid-item">Testing</div>
+            <div class="grid-item">Support</div>
+            <div class="grid-item">SEO</div>
+            <div class="grid-item">Training</div>
+        </div>
+    </section>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,229 @@
+.div1 {
+  background-color: greenyellow;
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.div1 > h1 {
+  background-color: yellow;
+  padding: 10px;
+  border: solid black 1px;
+  margin: 10px;
+}
+
+.div2 {
+  background-color: aqua;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div2 > h1 {
+  background-color: cadetblue;
+  padding: 10px;
+  border: solid black 1px;
+  margin: 10px;
+}
+
+
+
+
+.grid-container {
+            display: grid;
+            border: 2px solid black;
+            padding: 10px;
+
+            /* Columns */
+            grid-template-columns: 1fr 2fr 1fr;
+
+            /* Rows */
+            grid-template-rows: 80px 80px;
+
+            /* Gap */
+            gap: 10px;
+
+            background-color: lightgray;
+        }
+
+        .item {
+            background-color: lightblue;
+            border: 1px solid blue;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Grid Column */
+        .item1 {
+            grid-column: 1 / 3;
+        }
+
+        /* Grid Row */
+        .item2 {
+            grid-row: 2 / 4;
+        }
+
+        /* Repeat and minmax */
+        .repeat-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(100px, 1fr));
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Grid Alignment */
+        .align-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(2, 70px);
+            gap: 10px;
+
+            justify-content: center;
+            align-content: center;
+            justify-items: center;
+            align-items: center;
+
+            height: 250px;
+            background-color: lightyellow;
+            border: 2px solid black;
+            margin-bottom: 20px;
+        }
+
+        .align-grid .item {
+            width: 70px;
+            height: 40px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        /* Grid Areas */
+        .area-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 60px 150px 60px;
+
+            grid-template-areas:
+                "header header"
+                "sidebar main"
+                "footer footer";
+
+            gap: 10px;
+        }
+
+        .header {
+            grid-area: header;
+            background-color: lightcoral;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: lightgreen;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: lightblue;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: lightpink;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* 2. Responsive Navigation */
+        nav {
+            background-color: #222;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        /* 3. Mobile-First Design */
+        .heading {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* 4. Responsive Cards using Flexbox */
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px #ccc;
+            flex: 1;
+        }
+
+        /* 5. Responsive Grid */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .grid-item {
+            background-color: lightblue;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* 6. Media Queries for Tablets */
+        @media (min-width: 600px) {
+            .card-container {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .card {
+                flex: 1 1 250px;
+            }
+
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* 7. Media Queries for Desktops */
+        @media (min-width: 900px) {
+            .grid-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .heading {
+                padding: 40px;
+            }
+        }
+
+        /* 8. Responsive Navigation on Small Screens */
+        @media (max-width: 480px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
