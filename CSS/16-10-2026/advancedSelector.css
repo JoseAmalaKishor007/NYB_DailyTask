@@ -1,0 +1,200 @@
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+/* 1. CSS Specificity */
+p {
+    color: blue;
+}
+
+.highlight {
+    color: green;
+}
+
+#special {
+    color: red;
+}
+
+/* 2. Inheritance */
+.parent {
+    color: purple;
+    font-size: 18px;
+}
+
+/* 3. Pseudo-classes */
+
+/* Hover */
+button:hover {
+    background-color: lightgreen;
+}
+
+/* Focus */
+button:focus {
+    outline: 3px solid blue;
+}
+
+/* Active */
+button:active {
+    background-color: orange;
+}
+
+/* First Child */
+.items li:first-child {
+    color: red;
+}
+
+/* Last Child */
+.items li:last-child {
+    color: blue;
+}
+
+/* Nth Child */
+.items li:nth-child(2) {
+    background-color: yellow;
+}
+
+/* 4. Pseudo-elements */
+
+/* Before */
+.pseudo::before {
+    content: "Start: ";
+    color: red;
+    font-weight: bold;
+}
+
+/* After */
+.pseudo::after {
+    content: " End.";
+    color: green;
+    font-weight: bold;
+}
+
+/* First Letter */
+.pseudo::first-letter {
+    font-size: 30px;
+    color: blue;
+}
+
+/* First Line */
+.pseudo::first-line {
+    font-weight: bold;
+}
+
+/* 5. Attribute Selectors */
+
+/* Select text input */
+input[type="text"] {
+    border: 2px solid blue;
+}
+
+/* Select email input */
+input[type="email"] {
+    border: 2px solid green;
+}
+
+/* Select links with target attribute */
+a[target] {
+    color: red;
+}
+
+/* Common Styling */
+input {
+    padding: 8px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+
+
+/* 1. Custom Properties */
+:root {
+    --main-color: blue;
+    --secondary-color: lightblue;
+    --text-color: #333333;
+
+    --small-space: 10px;
+    --large-space: 20px;
+
+    --main-font: Arial, sans-serif;
+    --heading-size: 28px;
+}
+
+/* General Styling */
+body {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    margin: var(--large-space);
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: var(--main-color);
+    font-size: var(--heading-size);
+}
+
+.container {
+    background-color: white;
+    padding: var(--large-space);
+    margin-bottom: var(--large-space);
+    border-radius: 10px;
+}
+
+/* 2. Reusable Colors and Spacing */
+.btn {
+    background-color: var(--main-color);
+    color: white;
+    padding: var(--small-space) var(--large-space);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 3. Gradients */
+.gradient-box {
+    padding: 30px;
+    color: white;
+    background: linear-gradient(to right, blue, purple);
+    text-align: center;
+}
+
+/* 4. Shadows */
+.shadow-box {
+    padding: 30px;
+    background-color: var(--secondary-color);
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* 5. Opacity */
+.opacity-box {
+    padding: 30px;
+    background-color: red;
+    opacity: 0.5;
+}
+
+/* 6. Specificity Conflict */
+p {
+    color: blue;
+}
+
+.message {
+    color: green;
+}
+
+#special-message {
+    color: red !important;
+}
