@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="UIeffects.css" />
+  </head>
+  <body>
+    <h1>CSS Pseudo-Classes</h1>
+
+    <h2>1. Link and User Action</h2>
+    <a href="https://example.com">Visit Example</a>
+    <br /><br />
+    <button>Click or Focus Me</button>
+
+    <h2>2. Form Pseudo-Classes</h2>
+    <input type="text" placeholder="Enter your name" required />
+    <br /><br />
+    <input type="email" placeholder="Enter your email" required />
+    <br /><br />
+    <input type="checkbox" checked /> Subscribe <br /><br />
+    <input type="text" disabled value="Disabled input" />
+
+    <h2>3. Child Pseudo-Classes</h2>
+    <ul>
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+      <li>Fourth Item</li>
+      <li>Last Item</li>
+    </ul>
+
+    <h2>4. Structural Pseudo-Classes</h2>
+    <div class="container">
+      <p>First paragraph</p>
+      <p>Second paragraph</p>
+      <p>Third paragraph</p>
+    </div>
+
+    <h2>5. Target Pseudo-Class</h2>
+    <a href="#details">Go to Details</a>
+    <p id="details">You reached the details section!</p>
+
+    <h2>6. Negation Pseudo-Class</h2>
+    <div class="items">
+        <p>Normal paragraph</p>
+        <p class="special">Special paragraph</p>
+        <p>Another normal paragraph</p>
+    </div>
+
+    <h2>7. Empty Pseudo-Class</h2>
+    <div class="empty-box"></div>
+    <div class="empty-box">This box is not empty.</div>
+
+
+
+    <h1>CSS Pseudo-elements</h1>
+
+    <!-- 1. ::before and ::after -->
+    <section>
+        <h2>1. Before and After</h2>
+        <p class="before-after">
+            CSS makes websites beautiful.
+        </p>
+    </section>
+
+    <!-- 2. ::first-letter -->
+    <section>
+        <h2>2. First Letter</h2>
+        <p class="first-letter">
+            Pseudo-elements allow us to style specific parts of an element.
+        </p>
+    </section>
+
+    <!-- 3. ::first-line -->
+    <section>
+        <h2>3. First Line</h2>
+        <p class="first-line">
+            CSS is a stylesheet language used to design web pages.
+            It controls colors, spacing, fonts, layouts, and many other
+            visual properties of a website.
+        </p>
+    </section>
+
+    <!-- 4. ::selection -->
+    <section>
+        <h2>4. Selection</h2>
+        <p class="selection">
+            Select this text using your mouse to see the custom
+            selection color.
+        </p>
+    </section>
+
+    <!-- 5. ::placeholder -->
+    <section>
+        <h2>5. Placeholder</h2>
+        <input type="text" placeholder="Enter your name">
+    </section>
+
+    <!-- 6. ::marker -->
+    <section>
+        <h2>6. Marker</h2>
+        <ul class="marker">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- 7. ::file-selector-button -->
+    <section>
+        <h2>7. File Selector Button</h2>
+        <input type="file">
+    </section>
+
+    <!-- 8. ::backdrop -->
+    <section>
+        <h2>8. Backdrop</h2>
+        <button id="openDialog">Open Dialog</button>
+
+        <dialog id="myDialog">
+            <h3>Hello!</h3>
+            <p>This dialog demonstrates the ::backdrop pseudo-element.</p>
+            <button id="closeDialog">Close</button>
+        </dialog>
+    </section>
+
+    <!-- 9. ::before and ::after with decorative content -->
+    <section>
+        <h2>9. Decorative Lines</h2>
+        <h3 class="decorated">Welcome to CSS</h3>
+    </section>
+
+
+
+     <h1>CSS Variables Example</h1>
+
+    <div class="box">
+        <h2>Welcome!</h2>
+        <p>CSS variables make styles reusable.</p>
+        <button class="btn">Click Me</button>
+    </div>
+
+
+
+    <div>
+         <h1>CSS Gradients Example</h1>
+
+    <div class="gradient">
+        <h2>Welcome!</h2>
+        <p>This box uses a CSS gradient.</p>
+    </div>
+    </div>
+
+    <div id="gradientText">
+        <h1>This is Gradient Text</h1>
+        <button>Gradient Button</button>
+    </div>
+
+  </body>
+</html>

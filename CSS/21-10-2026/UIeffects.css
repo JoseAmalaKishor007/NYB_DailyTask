@@ -1,0 +1,343 @@
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 25px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+/* 1. Link Pseudo-Classes */
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+
+/* Focus */
+button:hover{
+    background-color: turquoise;
+}
+button:focus {
+    outline: 3px solid blue;
+}
+
+/* Active Button */
+button:active {
+    background-color: yellow;
+}
+
+/* 2. Form Pseudo-Classes */
+input:focus {
+    background-color: lightyellow;
+}
+
+input:required {
+    border: 2px solid red;
+}
+
+input:checked {
+    accent-color: rgb(95, 9, 235);
+}
+
+input:disabled {
+    background-color: lightgray;
+}
+
+input:enabled {
+    color: darkblue;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+/* 3. Child Pseudo-Classes */
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: blue;
+}
+
+li:nth-child(2) {
+    background-color: yellow;
+}
+
+li:nth-child(odd) {
+    font-weight: bold;
+}
+
+li:nth-child(even) {
+    background-color: lightgray;
+}
+
+li:only-child {
+    color: purple;
+}
+
+/* 4. Structural Pseudo-Classes */
+.container p:first-of-type {
+    color: green;
+}
+
+.container p:last-of-type {
+    color: red;
+}
+
+.container p:nth-of-type(2) {
+    background-color: lightblue;
+}
+
+/* 5. Target */
+#details:target {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+/* 6. Negation */
+.items p:not(.special) {
+    color: blue;
+}
+
+/* 7. Empty */
+.empty-box:empty {
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    margin: 10px 0;
+}
+
+.empty-box:not(:empty) {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+    color: #1d3557;
+}
+
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 650px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #00000015;
+}
+
+h2 {
+    color: #457b9d;
+}
+
+/* 1. ::before */
+.before-after::before {
+    content: "START: ";
+    color: green;
+    font-weight: bold;
+}
+
+/* 1. ::after */
+.before-after::after {
+    content: " :END";
+    color: red;
+    font-weight: bold;
+}
+
+/* 2. ::first-letter */
+.first-letter::first-letter {
+    font-size: 40px;
+    color: crimson;
+    font-weight: bold;
+}
+
+/* 3. ::first-line */
+.first-line::first-line {
+    color: blue;
+    font-weight: bold;
+    background-color: #e0f2fe;
+}
+
+/* 4. ::selection */
+.selection::selection {
+    background-color: gold;
+    color: black;
+}
+
+/* 5. ::placeholder */
+input::placeholder {
+    color: gray;
+    font-style: italic;
+}
+
+/* 6. ::marker */
+.marker li::marker {
+    color: crimson;
+    font-size: 22px;
+}
+
+/* 7. ::file-selector-button */
+input[type="file"]::file-selector-button {
+    background-color: #457b9d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* 8. ::backdrop */
+dialog::backdrop {
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+dialog {
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 350px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #457b9d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d3557;
+}
+
+/* 9. Decorative ::before and ::after */
+.decorated {
+    text-align: center;
+    color: darkblue;
+}
+
+.decorated::before {
+    content: "★ ";
+    color: orange;
+}
+
+.decorated::after {
+    content: " ★";
+    color: orange;
+}
+
+
+
+
+/* Declare CSS variables */
+:root {
+    --main-color: blue;
+    --text-color: white;
+    --box-padding: 20px;
+}
+
+
+h1 {
+    color: var(--main-color);
+}
+
+.box {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    padding: var(--box-padding);
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+button .btn {
+    background-color: var(--text-color);
+    color: var(--main-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.gradient {
+    width: 300px;
+    padding: 40px 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+
+    /* Linear Gradient */
+    background: linear-gradient(to right, blue, violet);
+
+    color: white;
+}
+
+#gradientText h1{
+    margin-top: 100px;
+    color: transparent;
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(90deg ,orange,red,pink);
+    background-clip:text;
+    -webkit-background-clip: text;
+}
+
+#gradientText button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
+
+
