@@ -1,0 +1,36 @@
+body {
+  background-color: blueviolet;
+  font-family: "Doppio One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin: 2px;
+  padding: 10px;
+}
+#flexBox {
+  background-color: chartreuse;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+
+#imgGallery h1 {
+  text-align: center;
+  color: white;
+}
+
+#imgGallery div{
+    width: 200px;
+    color: white;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
