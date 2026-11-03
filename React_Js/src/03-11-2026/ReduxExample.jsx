@@ -22,7 +22,7 @@ function ReduxExample() {
       </button>
 
       <button onClick={() => dispatch(decrement())}>
-        Decrement
+        Decrements
       </button>
 
       <button onClick={() => dispatch(reset())}>
