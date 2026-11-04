@@ -9,6 +9,7 @@
 // import Lists from "./29-10-2026/Lists";
 // import ContextAPI from "./02-11-2026/ContextAPI";
 import ReduxExample from "./03-11-2026/ReduxExample";
+import UserList from "./04-11-2026/components/UserList";
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
       {/* <Practise /> */}
       {/* <Lists /> */}
       {/* <ContextAPI /> */}
-      <ReduxExample />
+      {/* <ReduxExample /> */}
+      <UserList />
     </div>
   );
 }
