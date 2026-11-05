@@ -8,8 +8,9 @@
 // import ReactForms from "./29-10-2026/Forms";
 // import Lists from "./29-10-2026/Lists";
 // import ContextAPI from "./02-11-2026/ContextAPI";
-import ReduxExample from "./03-11-2026/ReduxExample";
-import UserList from "./04-11-2026/components/UserList";
+// import ReduxExample from "./03-11-2026/ReduxExample";
+// import UserList from "./04-11-2026/components/UserList";
+import UserManagement from "./05-11-2026/components/UserManagement";
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       {/* <Lists /> */}
       {/* <ContextAPI /> */}
       {/* <ReduxExample /> */}
-      <UserList />
+      {/* <UserList /> */}
+      <UserManagement />
     </div>
   );
 }
