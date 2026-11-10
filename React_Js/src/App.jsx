@@ -3,6 +3,7 @@
 // import PropsState from "./28-10-2026/PropsState";
 // import ComponentCommunication from "./28-10-2026/ComponentCommunication";
 
+
 // import ReactEvents from "./29-10-2026/Events";
 // import Practise from "./29-10-2026/Practise";
 // import ReactForms from "./29-10-2026/Forms";
@@ -10,8 +11,11 @@
 // import ContextAPI from "./02-11-2026/ContextAPI";
 // import ReduxExample from "./03-11-2026/ReduxExample";
 // import UserList from "./04-11-2026/components/UserList";
-import UserManagement from "./05-11-2026/components/UserManagement";
+// import UserManagement from "./05-11-2026/components/UserManagement";
 
+// import ContextRevision from "./06-11-2026/ContextRevision";
+// import ReduxRevision from "./06-11-2026/06-11-2026"
+import RevisionContext from "./10-11-2026/RevisionContext";
 
 function App() {
   return (
@@ -27,7 +31,10 @@ function App() {
       {/* <ContextAPI /> */}
       {/* <ReduxExample /> */}
       {/* <UserList /> */}
-      <UserManagement />
+      {/* <UserManagement /> */}
+      {/* <ContextRevision /> */}
+      {/* <ReduxRevision.jsx /> */}
+      <RevisionContext />
     </div>
   );
 }
